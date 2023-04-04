@@ -20,6 +20,10 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
+  cursor: pointer;
+}
+.button:active { 
+  background: #43A047;
 }
 
 .center {
