@@ -1,0 +1,47 @@
+body {
+  background-color: lightblue;
+}
+
+.centerLetras{ 
+  text-align: center;
+}
+.centerImg{ 
+  width: 30%;
+  margin: auto;
+  display: block;
+  
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.center {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+}
+
+.left {
+  position: absolute;
+  left: 1%;
+  font-size: 13px;
+}
+
+.right {
+  position: absolute;
+  right: 16px;
+  font-size: 13px;
+}
+
+.space { 
+  margin-bottom: 30%;
+ }
