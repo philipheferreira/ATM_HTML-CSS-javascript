@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+
+	<h3 class="centerLetras"></h3>
+	<img class="centerImg" alt="" src="awesome-computer-kid-computer.gif">
+	<div class="center">
+		<div class="left">
+			<button class="button space aplicacao">Aplicação</button>
+		</div>
+		<div class="right">
+			<button onclick="window.location.href='pages/saque_Depositos/transacaoPag1.html';" 
+			class="button space resgate">Resgate</button>
+			<br/>
+			<button class="button space saldo">Saldo</button>
+		</div>
+	</div>
+	<script type="text/javascript">
+		let botaoAplicacao = document.querySelector(".aplicacao");
+		let botaoResgate = document.querySelector(".resgate");
+		let botaoSaldo = document.querySelector(".saldo");
+		
+		botaoAplicacao.addEventListener("click", function(){
+			console.log("Clicou em Saldo");
+		});
+
+		botaoResgate.addEventListener("click", function(){
+			console.log("Clicou em Extrato");
+		});
+		botaoSaldo.addEventListener("click", function(){
+			console.log("Clicou em Transferencia");
+		});
+
+	</script>
+</body>
+</html>

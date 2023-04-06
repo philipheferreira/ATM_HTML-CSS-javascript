@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="stylePag1.css">
+	<title></title>
+</head>
+<body>
+
+	<h3 class="centerLetras"></h3>
+	<div class="center">
+		<div class="left">
+			<button class="button space contaCorrente">Conta Corrente</button>
+			<br/>
+		</div>
+		<div class="right">
+			<button class="button space poupanca">Poupança</button>
+		</div>
+	</div>
+	<script type="text/javascript">
+		let botaoDepositosContacorrente = document.querySelector(".contaCorrente");
+		let botaoPoupanca = document.querySelector(".poupanca");
+
+		botaoDepositosContacorrente.addEventListener("click", function(){
+			console.log("Clicou em Conta Corrente");
+		});
+
+		botaoPoupanca.addEventListener("click", function(){
+			console.log("Clicou em Poupança");
+		});
+
+	</script>
+</body>
+</html>

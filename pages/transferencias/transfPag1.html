@@ -12,24 +12,21 @@
 	<img class="centerImg" alt="" src="awesome-computer-kid-computer.gif">
 	<div class="center">
 		<div class="left">
-			<button class="button space saldo">Saldo</button>
+			<button class="button space saldo">Conta Corrente => Conta Corrente</button>
 			<br/>
-			<button onclick="window.location.href='pages/extratos/extratoPag1.html';" class="button space extrato">Extratos</button>
+			<button class="button space extrato">Conta Corrente => Poupança</button>
 			<br/>
-			<button onclick="window.location.href='pages/transferencias/transfPag1.html';" 
-			class="button space transferencia">Transferências</button>
+			<button class="button space transferencia">Poupança Programada</button>
 			<br/>
-			<button class="button pagamento_Contas">Pagamento Contas</button>
+			<button class="button pagamento_Contas">Voltar</button>
 		</div>
 		<div class="right">
 			<button onclick="window.location.href='pages/saque_Depositos/transacaoPag1.html';" 
-			class="button space saque_Depositos">Saque / Depósitos</button>
+			class="button space saque_Depositos">DOC</button>
 			<br/>
-			<button class="button space outros_Serviços">Outros Serviços</button>
+			<button class="button space outros_Serviços">TED</button>
 			<br/>
-			<button onclick="window.location.href='pages/Investimentos/investPag1.html';" class="button space investimentos">Investimentos</button>
-			<br/>
-			<button class="button emprestimos">Empréstimos</button>
+			<button class="button space investimentos">Reimpressão</button>
 		</div>
 	</div>
 	<script type="text/javascript">
@@ -40,7 +37,6 @@
 		let botaoSaqueDepositos = document.querySelector(".saque_Depositos");
 		let botaoOutrosServicos = document.querySelector(".outros_Serviços");
 		let botaoInvestimentos = document.querySelector(".investimentos");
-		let botaoEmprestimos = document.querySelector(".emprestimos");
 
 		botaoSaldo.addEventListener("click", function(){
 			console.log("Clicou em Saldo");

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+
+	<h3 class="centerLetras">Projeto ATM - Banco do Phil</h3>
+	<img class="centerImg" alt="" src="awesome-computer-kid-computer.gif">
+	<div class="center">
+		<div class="left">
+			<button onclick="window.location.href='extratosCC.html';" class="button space extratosCC">Conta Corrente</button>
+			<br/>
+			<button class="button space multicred">MultiCred</button>
+			<br/>
+			<button class="button space contraCheque">ContraCheque</button>
+		</div>
+		<div class="right">
+			<button class="button space banparaCard">BanparaCard</button>
+			<br/>
+			<button class="button space compraPremiada">Compra Premiada</button>
+			<br/>
+			<button class="button space contaMais">Conta Mais</button>
+		</div>
+	</div>
+	<script type="text/javascript">
+		let botaoExtratosCC = document.querySelector(".extratosCC");
+		let botaoMultiCred = document.querySelector(".multiCred");
+		let botaoContraCheque = document.querySelector(".contraCheque");
+		let botaoBanparaCard = document.querySelector(".banparaCard");
+		let botaoCompraPremiada = document.querySelector(".compraPremiada");
+		let botaoContaMais = document.querySelector(".contaMais");
+
+		botaoExtratosCC.addEventListener("click", function(){
+			console.log("Clicou em Extratos Conta Corrente");
+		});
+
+		botaoMultiCred.addEventListener("click", function(){
+			console.log("Clicou em MultiCred");
+		});
+		botaoContraCheque.addEventListener("click", function(){
+			console.log("Clicou em Contra Cheque");
+		});
+
+		botaoBanparaCard.addEventListener("click", function(){
+			console.log("Clicou em banparaCard");
+		});
+		botaoCompraPremiada.addEventListener("click", function(){
+			console.log("Clicou em Compra Premiada");
+		});
+		botaoOutrosServicos.addEventListener("click", function(){
+			console.log("Clicou em Outros Serviços");
+		});
+		botaoContaMais.addEventListener("click", function(){
+			console.log("Clicou em Conta Mais");
+		});
+
+	</script>
+</body>
+</html>
