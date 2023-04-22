@@ -12,54 +12,53 @@
 	<img class="centerImg" alt="" src="awesome-computer-kid-computer.gif">
 	<div class="center">
 		<div class="left">
-			<button class="button space saldo">Conta Corrente => Conta Corrente</button>
+			<button class="button space CCparaCC">Conta Corrente => Conta Corrente</button>
 			<br/>
-			<button class="button space extrato">Conta Corrente => Poupança</button>
+			<button class="button space CCparaCP">Conta Corrente => Poupança</button>
 			<br/>
-			<button class="button space transferencia">Poupança Programada</button>
+			<button class="button space poupancaProgramada">Poupança Programada</button>
 			<br/>
-			<button class="button pagamento_Contas">Voltar</button>
+			<button class="button voltar">Voltar</button>
 		</div>
 		<div class="right">
-			<button onclick="window.location.href='pages/saque_Depositos/transacaoPag1.html';" 
-			class="button space saque_Depositos">DOC</button>
+			<button onclick="window.location.href='" class="button space doc">DOC</button>
 			<br/>
-			<button class="button space outros_Serviços">TED</button>
+			<button class="button space ted">TED</button>
 			<br/>
-			<button class="button space investimentos">Reimpressão</button>
+			<button class="button space reimpressao">Reimpressão</button>
 		</div>
 	</div>
 	<script type="text/javascript">
-		let botaoSaldo = document.querySelector(".saldo");
-		let botaoExtrato = document.querySelector(".extrato");
-		let botaoTransferencia = document.querySelector(".transferencia");
-		let botaoPagamentoContas = document.querySelector(".pagamento_Contas");
-		let botaoSaqueDepositos = document.querySelector(".saque_Depositos");
-		let botaoOutrosServicos = document.querySelector(".outros_Serviços");
-		let botaoInvestimentos = document.querySelector(".investimentos");
+		let botaoCcParaCc = document.querySelector(".CCparaCC");
+		let botaoCcParaCp = document.querySelector(".CCparaCP");
+		let botaoPoupancaProgramada = document.querySelector(".poupancaProgramada");
+		let botaoVoltar = document.querySelector(".voltar");
+		let botaoDoc = document.querySelector(".doc");
+		let botaoTed = document.querySelector(".ted");
+		let botaoReimpressao = document.querySelector(".reimpressao");
 
-		botaoSaldo.addEventListener("click", function(){
-			console.log("Clicou em Saldo");
-		});
-
-		botaoExtrato.addEventListener("click", function(){
-			console.log("Clicou em Extrato");
-		});
-		botaoTransferencia.addEventListener("click", function(){
-			console.log("Clicou em Transferencia");
+		botaoCcParaCc.addEventListener("click", function(){
+			console.log("Clicou em Transferencia Conta Corrente para Conta Corrente");
 		});
 
-		botaoPagamentoContas.addEventListener("click", function(){
-			console.log("Clicou em pagamentos contas");
+		botaoCcParaCp.addEventListener("click", function(){
+			console.log("Clicou em Tranasferencia Conta Corrente para COnta Poupança");
 		});
-		botaoSaqueDepositos.addEventListener("click", function(){
-			console.log("Clicou em Saque/Depositos");
+		botaoPoupancaProgramada.addEventListener("click", function(){
+			console.log("Clicou em Poupança Programada");
 		});
-		botaoOutrosServicos.addEventListener("click", function(){
-			console.log("Clicou em Outros Serviços");
+
+		botaoVoltar.addEventListener("click", function(){
+			console.log("Clicou em Voltar");
 		});
-		botaoInvestimentos.addEventListener("click", function(){
-			console.log("Clicou em Investimentos");
+		botaoDoc.addEventListener("click", function(){
+			console.log("Clicou em DOC");
+		});
+		botaoTed.addEventListener("click", function(){
+			console.log("Clicou em TED");
+		});
+		botaoReimpressao.addEventListener("click", function(){
+			console.log("Clicou em Reimpressão");
 		});
 
 		botaoEmprestimos.addEventListener("click", function(){
