@@ -1,4 +1,4 @@
-let botaoSaldo = document.querySelector(".saldo");
+		let botaoSaldo = document.querySelector(".saldo");
 		let botaoExtrato = document.querySelector(".extrato");
 		let botaoTransferencia = document.querySelector(".transferencia");
 		let botaoPagamentoContas = document.querySelector(".pagamento_Contas");
